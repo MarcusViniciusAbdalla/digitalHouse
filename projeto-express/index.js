@@ -6,7 +6,7 @@ app.use(express.json());
 
 var usuarios = [];
 
-app.get('',(req , res) => {
+/*app.get('',(req , res) => {
     res.send('Hello World')
 })
 
@@ -22,9 +22,13 @@ app.post('' ,(req, res) => {
 app.post('/usuarios' ,(req, res) => {
     console.log(req)
     res.send('Cruzeiro o Maior de Minas!!!')
+})*/
+
+app.get('/usuarios' , (req, res) => {
+    res.send(JSON.stringify(usuarios));
 })
 
-app.post('/usuarios', function (req,res){
+app.post('/usuarios', (req,res) => {
     usuarios.push(req.body);
     req.send(200, usuarios);
 })
