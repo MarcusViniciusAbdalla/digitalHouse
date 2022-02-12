@@ -30,7 +30,7 @@ app.get('/usuarios' , (req, res) => {
 
 app.post('/usuarios', (req, res) => {
     usuarios.push(req.body);
-    req.send(200, usuarios);
+    res.send(200, usuarios);
 })
 
 app.listen(3000,() => {
