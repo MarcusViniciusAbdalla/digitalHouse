@@ -28,7 +28,7 @@ app.get('/usuarios' , (req, res) => {
     res.send(JSON.stringify(usuarios));
 })
 
-app.post('/usuarios', (req,res) => {
+app.post('/usuarios', (req, res) => {
     usuarios.push(req.body);
     req.send(200, usuarios);
 })
