@@ -3,8 +3,24 @@ body{
     font-weight: 400;
 }
 
+footer{
+    border-top: 1px solid gray ;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer li{
+    display: inline;
+}
+
 header h1{
     color:red;
+}
+
+article.last p{
+    margin-bottom: 40px;
 }
 
 .picture{
