@@ -1,6 +1,7 @@
 body{
     font-family: 'Bakbak One'cursive;
     font-weight: 400;
+    margin: 0 40px 0 40px;    
 }
 
 footer{
@@ -15,6 +16,14 @@ footer li{
     display: inline;
 }
 
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    width: 50px;
+}
+
 header h1{
     color:red;
 }
@@ -27,3 +36,8 @@ article.last p{
     width: 100%;
 }
 
+@media (min-widht: 800px) {
+    body{
+      margin: 0 20vw 0 20vw; 
+    }
+}
