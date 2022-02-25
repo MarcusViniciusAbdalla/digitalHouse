@@ -1,3 +1,7 @@
+html {
+    font-size: 14px;
+}
+
 body{
     font-family: 'Bakbak One'cursive;
     font-weight: 400;
@@ -50,3 +54,4 @@ vh = viewportHeight */
 exemplo: font-size: 10px
          margin-bottom: 1em , ou seja a margin será de uma medida, nesse caso 10 px.
 
+         rem = referencia o tamanho da fonte do elemento html
