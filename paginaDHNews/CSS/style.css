@@ -41,3 +41,12 @@ article.last p{
       margin: 0 20vw 0 20vw; 
     }
 }
+
+/*referência a % do tamanho da tela
+vw = viewportWidth
+vh = viewportHeight */
+
+/*  em = referencia o tamanho da fonte do elemento pai
+exemplo: font-size: 10px
+         margin-bottom: 1em , ou seja a margin será de uma medida, nesse caso 10 px.
+
