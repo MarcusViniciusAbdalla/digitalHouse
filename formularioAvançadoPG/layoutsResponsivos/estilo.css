@@ -1,0 +1,23 @@
+div.caixa1 {
+    background-color: coral;
+    border: 5px solid;
+}
+
+div.caixa2 {
+    background-color: darkblue;
+    border: 5px dotted;
+}
+
+div.caixa3 {
+    background-color: darkmagenta;
+    border:5px 
+}
+
+div {
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 40px;
+}
+
