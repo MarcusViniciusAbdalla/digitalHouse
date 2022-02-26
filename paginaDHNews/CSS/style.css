@@ -40,7 +40,7 @@ article.last p{
     width: 100%;
 }
 
-@media (min-widht: 800px) {
+@media (min-widht: 769px) {
     body{
       margin: 0 20vw 0 20vw; 
     }
@@ -55,3 +55,4 @@ exemplo: font-size: 10px
          margin-bottom: 1em , ou seja a margin será de uma medida, nesse caso 10 px.
 
          rem = referencia o tamanho da fonte do elemento html
+*/
