@@ -130,6 +130,20 @@ button.reset {
     background-color: rgb(185, 170, 170);
 }
 
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #c2175b;
+}
+
+button.submit:hover {
+    background-color: #830739;
+}
+
+button.reset:hover {
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+
 
 
 
