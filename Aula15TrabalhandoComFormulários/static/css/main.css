@@ -116,3 +116,20 @@ main form {
     flex-flow: column;
 }
 
+button.submit {
+    background-color: #c2175b;
+    border: none;
+    padding: .4rem;
+    color: white;
+}
+
+button.reset {
+    margin-top: -.5rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: rgb(185, 170, 170);
+}
+
+
+
+
