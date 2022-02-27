@@ -36,3 +36,54 @@ header nav a {
     padding: 1rem;
     font-weight: bold;
 }
+
+.banner img {
+    width: 100%;
+}
+
+.first-section{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 100%;
+}
+
+.container {
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: stretch;
+    gap:1rem;
+    margin:4rem;
+}
+
+.second-section {
+    display: flex;
+    color: white;
+    flex-flow: column;
+    align-items: center;
+    background-color: #c2175b;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+}
+
+.card section {
+    max-height: 300px;
+}
+
+.card footer {
+    display:flex;
+    flex-flow: column;
+    color: black;
+    background-color: white;
+    padding: .8rem;
+    font-size: .8rem;
+}
+
+.card .card-title {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
