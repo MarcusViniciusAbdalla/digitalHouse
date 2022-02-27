@@ -125,6 +125,10 @@ footer .column img {
     max-width: 12rem;
 }
 
+footer ul {
+    list-style: none;
+}
+
 .column.disclaimer {
     row-gap: 0;
     flex-grow: 1;
