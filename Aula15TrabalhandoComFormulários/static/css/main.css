@@ -12,11 +12,14 @@ body * {
 }
 
 header {
+    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-flow: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
     max-height: 100px;
+    flex-shrink: 1;
+    box-shadow: 0 1px 8px -4px black;
 }
 
 header nav {
@@ -39,6 +42,15 @@ header nav a {
     display: block;
     padding: 1rem;
     font-weight: bold;
+    font-size: .8rem;
+}
+
+body > main {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
 }
 
 .column {
@@ -47,7 +59,6 @@ header nav a {
     row-gap: 1rem;
     align-self: stretch;
 }
-
 
 footer {
     display: flex;
@@ -85,7 +96,7 @@ footer .column img {
     max-width: 31%;
 }
 
-.column.sm.column.categories {
+.column.sm.categories {
     display: flex;
     justify-content: end;
 }
