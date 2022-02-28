@@ -21,7 +21,7 @@ body {
     max-height: 100px;
     flex-shrink: 1;
     box-shadow: 0 1px 8px -4px black;
-  }
+ }
   
   body > header img {
     width: 7rem;
@@ -172,6 +172,20 @@ body {
   button.reset:hover {
     background-color: rgb(110, 110, 110);
     color: white;
+  }
+
+  body > main > .banner {
+    position:sticky;
+    top:0;
+    width: 100%;
+    background-color: #c2175b;
+    display: flex;
+    justify-content: center;      
+  }
+
+  body > main > .banner > h4 {
+    color: white;
+    text-transform: uppercase;    
   }
   
   @media all and (min-width: 768px) {
