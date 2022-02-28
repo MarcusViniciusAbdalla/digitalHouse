@@ -167,11 +167,13 @@ body {
   
   button.submit:hover {
     background-color: #720f36;
+    cursor:pointer;
   }
   
   button.reset:hover {
     background-color: rgb(110, 110, 110);
     color: white;
+    cursor: pointer;
   }
 
   body > main > .banner {
