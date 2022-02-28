@@ -168,12 +168,21 @@ body {
   button.submit:hover {
     background-color: #720f36;
     cursor:pointer;
+
+    transition: 
+      backgroundcolor .8s,
+      color .8s;
   }
   
   button.reset:hover {
     background-color: rgb(110, 110, 110);
+    font-size:2rem;
     color: white;
     cursor: pointer;
+
+    transition: 
+    backgroundcolor .8s,
+    color .8s;
   }
 
   body > main > .banner {
