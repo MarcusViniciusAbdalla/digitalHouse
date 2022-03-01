@@ -1,4 +1,4 @@
-body {
+  body {
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -197,7 +197,10 @@ body {
     width: 100%;
     background-color: #c2175b;
     display: flex;
-    justify-content: center;      
+    justify-content: center;
+    
+    animation: blink 3s;
+    animation-iteration-count: infinite;
   }
 
   body > main > .banner > h4 {
@@ -253,4 +256,11 @@ body {
     body > main > header > h1 {
       min-width: 50%;
     }
+  }
+
+  
+  @keyframes blink {
+    0% {opacity: .3}
+    50% {opacity: 1}
+    100% {opacity: .3}
   }
