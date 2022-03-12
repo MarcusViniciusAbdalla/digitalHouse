@@ -6,7 +6,7 @@ const http = require('http');
 }).listen(3030)*/
 
 
-http.createServer((req,req) => {
+http.createServer((req,res) => {
   res.writeHead(200 , {"Content-Type": "text/plain"});
 
     switch(req.url){
